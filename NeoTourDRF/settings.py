@@ -142,3 +142,6 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+#AUTH_USER_MODEL = "myapp.user"
+AUTH_USER_MODEL = 'myapp.User'
+
